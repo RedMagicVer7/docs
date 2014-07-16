@@ -115,6 +115,6 @@
 
 在这种场景下，一种理想的解决方案是：
 
-http://ww2.sinaimg.cn/bmiddle/005HcH13gw1eiensw1m0kj30oe0mnjsl.jpg
+![](http://ww2.sinaimg.cn/bmiddle/005HcH13gw1eiensw1m0kj30oe0mnjsl.jpg)
 
 上面讲的方案二只是理想方案的妥协版。
