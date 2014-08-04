@@ -40,3 +40,6 @@ Protocol Buffer官方仅给出了接口形式，没有给出具体的通讯协�
 数据交换格式必须使用Protocol Buffer。
 
 Protocol Buffer中string类型的编码一律使用UTF-8。
+
+[http://gollum.baidu.com/RPCSpec](http://gollum.baidu.com/RPCSpec)
+

@@ -219,3 +219,5 @@ stream_id用于唯一标识一个数据流，由发送方保证其唯一性，�
 <td>使用gzip</td>
 </tr>
 </tbody></table>
+
+[http://gollum.baidu.com/ProtobufRPC](http://gollum.baidu.com/ProtobufRPC)
