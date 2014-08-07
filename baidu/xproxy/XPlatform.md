@@ -101,7 +101,7 @@
 
 场景：删除`X通用服务`的一个转化后，需要通知`业务平台`的删除与该转化相关的关联数据。
 
-![](http://ww2.sinaimg.cn/bmiddle/60c9620fgw1ej437hgn5ij20mr0gk757.jpg)
+![](http://ww4.sinaimg.cn/bmiddle/60c9620fgw1ej43gwg7ihj20mr0gkq3p.jpg)
 
 解决方案：采用异步化方案。通过MQ将数据流打通，并使`X通用服务`与`业务平台`解耦。
 
@@ -111,7 +111,7 @@
 
 场景：新建一个创意，`X通用服务`生成一个创意后，需要同步创意数据至`业务平台`，同步成功后，`X通用服务`将结果返回前端。
 
-![](http://ww4.sinaimg.cn/bmiddle/60c9620fgw1eidesa6s4fj20mr0gk0to.jpg)
+![](http://ww4.sinaimg.cn/bmiddle/60c9620fgw1ej43hx417kj20mr0gk757.jpg)
 
 解决方案：完全异步化。前端请求后，`X通用服务`不返回结果。前端等待几秒后，继续请求。此时MQ已经将结果同步至`业务平台`，前端再次请求时，可以同步地返回正确处理结果。
 
